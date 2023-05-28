@@ -1,0 +1,449 @@
+Dependencies for Project 'MicroFOC', Target 'MicroFOC': (DO NOT MODIFY !)
+F (..\main\main.c)(0x6471C55C)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\main\main.h)(0x6470C5E5)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_conf.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_adc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_crc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_dma.h)(0x627D592B)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_exti.h)(0x5CADF61E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_flash.h)(0x5CADF60E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_gpio.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_i2c.h)(0x5CADF600)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_iwdg.h)(0x5CADF3E6)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_pwr.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_spi.h)(0x5CADF44E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_tim.h)(0x5CADF462)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_uart.h)(0x5CB09458)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_wwdg.h)(0x5CADF55A)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_misc.h)(0x5CADF426)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_syscfg.h)(0x5CADF458)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\main\parameter.h)(0x6471C4BD)
+I (..\lib\Basic\Basic.h)(0x625EB742)
+I (..\lib\SVPWM\SVPWM.h)(0x6470BF8D)
+I (..\lib\Ctrl\Ctrl.h)(0x6470BFB3)
+I (..\lib\AS5600\AS5600.h)(0x6470C114)
+I (..\app\APP.h)(0x6470C431)
+I (..\lib\UART\UART.h)(0x6470C581)
+I (..\lib\ADC\ADC.h)(0x6470C12D)
+I (..\lib\SCIO\scio.h)(0x6470C0C6)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+F (..\device\MM32F003_q\Source\system_MM32F003_q.c)(0x5E23B1E6)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\system_mm32f003_q.o --omf_browse .\objects\system_mm32f003_q.crf --depend .\objects\system_mm32f003_q.d)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+F (..\device\MM32F003_q\Source\KEIL_StartAsm\startup_MM32F003_q.s)(0x5CADBDAC)(--cpu Cortex-M0 --li -g --apcs=interwork -I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 517" --pd "MM32F003NW SETA 1"--list .\listings\startup_mm32f003_q.lst --xref -o .\objects\startup_mm32f003_q.o --depend .\objects\startup_mm32f003_q.d)
+F (..\lib\ADC\ADC.c)(0x6470C12D)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (..\lib\ADC\ADC.h)(0x6470C12D)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_conf.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_adc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_crc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_dma.h)(0x627D592B)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_exti.h)(0x5CADF61E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_flash.h)(0x5CADF60E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_gpio.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_i2c.h)(0x5CADF600)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_iwdg.h)(0x5CADF3E6)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_pwr.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_spi.h)(0x5CADF44E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_tim.h)(0x5CADF462)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_uart.h)(0x5CB09458)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_wwdg.h)(0x5CADF55A)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_misc.h)(0x5CADF426)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_syscfg.h)(0x5CADF458)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+F (..\lib\AS5600\AS5600.c)(0x6471C44D)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\as5600.o --omf_browse .\objects\as5600.crf --depend .\objects\as5600.d)
+I (..\lib\AS5600\AS5600.h)(0x6470C114)
+I (..\main\parameter.h)(0x6471C4BD)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_conf.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_adc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_crc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_dma.h)(0x627D592B)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_exti.h)(0x5CADF61E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_flash.h)(0x5CADF60E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_gpio.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_i2c.h)(0x5CADF600)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_iwdg.h)(0x5CADF3E6)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_pwr.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_spi.h)(0x5CADF44E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_tim.h)(0x5CADF462)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_uart.h)(0x5CB09458)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_wwdg.h)(0x5CADF55A)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_misc.h)(0x5CADF426)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_syscfg.h)(0x5CADF458)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\lib\Basic\Basic.h)(0x625EB742)
+F (..\lib\Basic\Basic.c)(0x625EB6E4)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\basic.o --omf_browse .\objects\basic.crf --depend .\objects\basic.d)
+I (..\lib\Basic\Basic.h)(0x625EB742)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_conf.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_adc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_crc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_dma.h)(0x627D592B)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_exti.h)(0x5CADF61E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_flash.h)(0x5CADF60E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_gpio.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_i2c.h)(0x5CADF600)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_iwdg.h)(0x5CADF3E6)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_pwr.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_spi.h)(0x5CADF44E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_tim.h)(0x5CADF462)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_uart.h)(0x5CB09458)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_wwdg.h)(0x5CADF55A)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_misc.h)(0x5CADF426)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_syscfg.h)(0x5CADF458)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+F (..\lib\Ctrl\Ctrl.c)(0x6470C0E2)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\ctrl.o --omf_browse .\objects\ctrl.crf --depend .\objects\ctrl.d)
+I (..\lib\Ctrl\Ctrl.h)(0x6470BFB3)
+I (..\lib\AS5600\AS5600.h)(0x6470C114)
+I (..\main\parameter.h)(0x6471C4BD)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_conf.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_adc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_crc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_dma.h)(0x627D592B)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_exti.h)(0x5CADF61E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_flash.h)(0x5CADF60E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_gpio.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_i2c.h)(0x5CADF600)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_iwdg.h)(0x5CADF3E6)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_pwr.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_spi.h)(0x5CADF44E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_tim.h)(0x5CADF462)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_uart.h)(0x5CB09458)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_wwdg.h)(0x5CADF55A)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_misc.h)(0x5CADF426)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_syscfg.h)(0x5CADF458)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\lib\Basic\Basic.h)(0x625EB742)
+I (..\lib\SVPWM\SVPWM.h)(0x6470BF8D)
+I (..\app\APP.h)(0x6470C431)
+I (..\main\main.h)(0x6470C5E5)
+I (..\lib\ADC\ADC.h)(0x6470C12D)
+I (..\lib\SCIO\scio.h)(0x6470C0C6)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (..\lib\UART\UART.h)(0x6470C581)
+F (..\lib\SCIO\scio.c)(0x6470C52D)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\scio.o --omf_browse .\objects\scio.crf --depend .\objects\scio.d)
+I (..\lib\SCIO\scio.h)(0x6470C0C6)
+I (..\main\parameter.h)(0x6471C4BD)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_conf.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_adc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_crc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_dma.h)(0x627D592B)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_exti.h)(0x5CADF61E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_flash.h)(0x5CADF60E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_gpio.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_i2c.h)(0x5CADF600)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_iwdg.h)(0x5CADF3E6)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_pwr.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_spi.h)(0x5CADF44E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_tim.h)(0x5CADF462)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_uart.h)(0x5CB09458)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_wwdg.h)(0x5CADF55A)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_misc.h)(0x5CADF426)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_syscfg.h)(0x5CADF458)
+F (..\lib\SVPWM\SVPWM.c)(0x6470BF8D)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\svpwm.o --omf_browse .\objects\svpwm.crf --depend .\objects\svpwm.d)
+I (..\lib\SVPWM\SVPWM.h)(0x6470BF8D)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_conf.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_adc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_crc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_dma.h)(0x627D592B)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_exti.h)(0x5CADF61E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_flash.h)(0x5CADF60E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_gpio.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_i2c.h)(0x5CADF600)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_iwdg.h)(0x5CADF3E6)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_pwr.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_spi.h)(0x5CADF44E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_tim.h)(0x5CADF462)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_uart.h)(0x5CB09458)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_wwdg.h)(0x5CADF55A)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_misc.h)(0x5CADF426)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_syscfg.h)(0x5CADF458)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\main\parameter.h)(0x6471C4BD)
+I (..\lib\Ctrl\Ctrl.h)(0x6470BFB3)
+I (..\lib\AS5600\AS5600.h)(0x6470C114)
+I (..\lib\Basic\Basic.h)(0x625EB742)
+I (..\app\APP.h)(0x6470C431)
+I (..\main\main.h)(0x6470C5E5)
+I (..\lib\ADC\ADC.h)(0x6470C12D)
+I (..\lib\SCIO\scio.h)(0x6470C0C6)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (..\lib\UART\UART.h)(0x6470C581)
+F (..\lib\UART\UART.c)(0x6470C5AB)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (..\lib\UART\UART.h)(0x6470C581)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_conf.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_adc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_crc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_dma.h)(0x627D592B)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_exti.h)(0x5CADF61E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_flash.h)(0x5CADF60E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_gpio.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_i2c.h)(0x5CADF600)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_iwdg.h)(0x5CADF3E6)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_pwr.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_spi.h)(0x5CADF44E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_tim.h)(0x5CADF462)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_uart.h)(0x5CB09458)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_wwdg.h)(0x5CADF55A)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_misc.h)(0x5CADF426)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_syscfg.h)(0x5CADF458)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_adc.c)(0x5CADF5DA)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_adc.o --omf_browse .\objects\hal_adc.crf --depend .\objects\hal_adc.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_adc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_crc.c)(0x5CADB990)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_crc.o --omf_browse .\objects\hal_crc.crf --depend .\objects\hal_crc.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_crc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_dma.c)(0x5CADB990)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_dma.o --omf_browse .\objects\hal_dma.crf --depend .\objects\hal_dma.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_dma.h)(0x627D592B)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_exti.c)(0x5CADB990)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_exti.o --omf_browse .\objects\hal_exti.crf --depend .\objects\hal_exti.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_exti.h)(0x5CADF61E)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_flash.c)(0x5CADB990)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_flash.o --omf_browse .\objects\hal_flash.crf --depend .\objects\hal_flash.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_flash.h)(0x5CADF60E)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_gpio.c)(0x5CADB98E)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_gpio.o --omf_browse .\objects\hal_gpio.crf --depend .\objects\hal_gpio.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_gpio.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_i2c.c)(0x5CADB990)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_i2c.o --omf_browse .\objects\hal_i2c.crf --depend .\objects\hal_i2c.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_i2c.h)(0x5CADF600)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_iwdg.c)(0x5CADB990)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_iwdg.o --omf_browse .\objects\hal_iwdg.crf --depend .\objects\hal_iwdg.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_iwdg.h)(0x5CADF3E6)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_misc.c)(0x5CADB990)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_misc.o --omf_browse .\objects\hal_misc.crf --depend .\objects\hal_misc.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_misc.h)(0x5CADF426)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_pwr.c)(0x5CB585DE)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_pwr.o --omf_browse .\objects\hal_pwr.crf --depend .\objects\hal_pwr.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_pwr.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_rcc.c)(0x5CADB990)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_rcc.o --omf_browse .\objects\hal_rcc.crf --depend .\objects\hal_rcc.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_spi.c)(0x5CADB98E)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_spi.o --omf_browse .\objects\hal_spi.crf --depend .\objects\hal_spi.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_spi.h)(0x5CADF44E)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_syscfg.c)(0x5CADB990)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_syscfg.o --omf_browse .\objects\hal_syscfg.crf --depend .\objects\hal_syscfg.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_syscfg.h)(0x5CADF458)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_tim.c)(0x5CADB990)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_tim.o --omf_browse .\objects\hal_tim.crf --depend .\objects\hal_tim.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_tim.h)(0x5CADF462)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_uart.c)(0x5CADB98E)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_uart.o --omf_browse .\objects\hal_uart.crf --depend .\objects\hal_uart.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_uart.h)(0x5CB09458)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+F (..\device\MM32F003_q\HAL_lib\src\HAL_wwdg.c)(0x5CADB990)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\hal_wwdg.o --omf_browse .\objects\hal_wwdg.crf --depend .\objects\hal_wwdg.d)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_wwdg.h)(0x5CADF55A)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+F (..\APP\APP.c)(0x6470C588)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections -I..\lib\SVPWM -I..\lib\Basic -I..\lib\UART -I..\main -I..\device\MM32F003_q\HAL_lib\inc -I..\device\MM32F003_q\Include -I..\device\CMSIS\KEIL_CORE -I..\lib\AS5600 -I..\lib\ADC -I..\lib\SCIO -I..\lib\Ctrl -I..\app-I "\\vmware-host\Shared Folders\TEMP_Floder\FOC\Project\RTE"-I C:\Software\Keil_v5\ARM\PACK\MindMotion\MM32F003_DFP\1.0.3\Device\MM32F003\Include-I C:\Software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMM32F003NW-o .\objects\app.o --omf_browse .\objects\app.crf --depend .\objects\app.d)
+I (..\APP\APP.h)(0x6470C431)
+I (..\lib\AS5600\AS5600.h)(0x6470C114)
+I (..\main\parameter.h)(0x6471C4BD)
+I (..\device\MM32F003_q\Include\HAL_device.h)(0x5CADBE18)
+I (..\device\MM32F003_q\Include\MM32F003_q.h)(0x5CADBE18)
+I (..\device\CMSIS\KEIL_CORE\core_cm0.h)(0x5C92E59E)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5C92E59E)
+I (..\device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5C92E59E)
+I (..\device\MM32F003_q\Include\system_MM32F003_q.h)(0x5CADBE56)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_conf.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_adc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_crc.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_dma.h)(0x627D592B)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_exti.h)(0x5CADF61E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_flash.h)(0x5CADF60E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_gpio.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_i2c.h)(0x5CADF600)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_iwdg.h)(0x5CADF3E6)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_pwr.h)(0x5CADBE18)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_rcc.h)(0x5CADF442)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_spi.h)(0x5CADF44E)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_tim.h)(0x5CADF462)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_uart.h)(0x5CB09458)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_wwdg.h)(0x5CADF55A)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_misc.h)(0x5CADF426)
+I (..\device\MM32F003_q\HAL_lib\inc\HAL_syscfg.h)(0x5CADF458)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\lib\Basic\Basic.h)(0x625EB742)
+I (..\lib\SVPWM\SVPWM.h)(0x6470BF8D)
+I (..\lib\Ctrl\Ctrl.h)(0x6470BFB3)
+I (..\main\main.h)(0x6470C5E5)
+I (..\lib\ADC\ADC.h)(0x6470C12D)
+I (..\lib\SCIO\scio.h)(0x6470C0C6)
+I (C:\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (..\lib\UART\UART.h)(0x6470C581)

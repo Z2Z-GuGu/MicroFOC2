@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "null.h": "c",
+        "basic.h": "c",
+        "main.h": "c",
+        "uart.h": "c",
+        "hal_i2c.h": "c",
+        "hal_device.h": "c",
+        "system_mm32f003_q.h": "c",
+        "ctrl.h": "c",
+        "svpwm.h": "c",
+        "as5600.h": "c",
+        "parameter.h": "c",
+        "app.h": "c"
+    }
+}
